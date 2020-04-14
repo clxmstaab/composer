@@ -464,7 +464,7 @@ class Package extends BasePackage
     /**
      * Set the suggested packages
      *
-     * @param array $suggests A set of package names/comments
+     * @param string[] $suggests A set of package names/comments
      */
     public function setSuggests(array $suggests)
     {
